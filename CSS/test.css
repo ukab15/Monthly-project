@@ -1,0 +1,450 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(/font/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #17c2ec;
+  --tertiary-color: #000000;
+  --transparency-color: #c4c4c41a;
+  --text-gray-color: #a3a3a3;
+  --text-light-gray-color: #ffffffb2;
+  --box-shadow: 0px 4px 4px 0px #0000001a;
+  --border-radius: 10px;
+  --font-weight-bold: 700;
+  --font-size-small: 0.75rem;
+  --font-size-medium: 0.875rem;
+  --font-size-large: 1.5rem;
+}
+
+body {
+  background-image: url(/imags/back/unsplash_SfDofjXtxHE\ \(2\).svg);
+  font-family: "Montserrat", sans-serif;
+  padding-left: 2rem;
+}
+
+/* النصوص */
+h1,
+.title {
+  color: var(--primary-color);
+  font-size: var(--font-size-large);
+  font-weight: 800;
+}
+
+p,
+span,
+.text,
+.link {
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+p,
+span {
+  color: var(--secondary-color);
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.22rem;
+  padding: 2rem 4rem 1.25rem 0;
+}
+
+span {
+  font-size: var(--font-size-large);
+  font-weight: 800;
+  line-height: 1.83rem;
+}
+.h1,
+.span1 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+}
+.h1 {
+  position: absolute;
+  left: 138px;
+  top: 9px;
+}
+.text {
+  color: var(--text-light-gray-color);
+  font-size: var(--font-size-medium);
+}
+
+.line-header,
+.line-foter {
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+}
+
+.line-header {
+  width: 5rem;
+  height: 3px;
+  border: 2px solid var(--secondary-color);
+}
+
+.line-foter {
+  width: 6.25rem;
+  height: 4px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+/* الهيدر */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.125rem;
+  padding-right: 2.1875rem;
+}
+
+.section1 {
+  padding-right: 2.75rem;
+}
+
+.injaction-img {
+  position: relative;
+  margin: 3.125rem 2.125rem 0 2.1875rem;
+  width: 19.125rem;
+  height: 19.3125rem;
+}
+
+.icone-header,
+.small-img,
+.small-img2,
+.doctor {
+  background-color: var(--transparency-color);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+.small-img,
+.small-img2 {
+
+  background-color: var(--primary-color);
+}
+
+.icone-header {
+  width: 45px;
+  height: 45px;
+}
+
+.small-img,
+.small-img2 {
+  width: 3.125rem;
+  height: 3.125rem;
+  position: absolute;
+}
+
+.small-img {
+  left: 14.4375rem;
+  top: 7rem;
+}
+
+.small-img2 {
+  right: 17.5rem;
+  top: 7rem;
+}
+
+/* تنسيق العنصر doctor */
+.doctor {
+  width: 14.875rem;
+  height: 4.3125rem;
+  position: relative;
+  bottom: 2.5rem;
+  right: 1.875rem;
+  background-color: var(--transparency-color);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-d1 {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.img-d3 {
+  position: absolute;
+  right: 110px;
+  top: 15px;
+}
+
+.img-d2 {
+  position: absolute;
+  left: 55px;
+  top: 15px;
+}
+
+
+/* الفوتر */
+.footer {
+  height: 11.6875rem;
+  margin: 1.875rem 8.3125rem 12.375rem 2.1875rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  color: #ffffff80;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  color: var(--primary-color);
+}
+
+.icon-f {
+  width: 1.75rem;
+  height: 1.4375rem;
+  color: rgb(12, 12, 12);
+  transition: transform 0.3s ease;
+}
+
+.icon-f:hover {
+  transform: scale(1.1);
+}
+
+.icone-foter {
+  position: absolute;
+  left: 1.875rem;
+}
+
+/* الأزرار */
+.btn {
+  width: 9.375rem;
+  height: 3.125rem;
+  border-radius: var(--border-radius);
+  color: var(--primary-color);
+  background-color: var(--transparency-color);
+  border: 3px solid var(--secondary-color);
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  width: 8.625rem;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  margin-top: 3.5rem;
+  margin-right: 0.625rem;
+}
+
+.btn-tertiary {
+  width: 19.0625rem;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn:active {
+  background-color: transparent;
+  transform: scale(0.9);
+}
+
+/* الحقول */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #007c8c;
+  background-color: #e0f7fa;
+}
+
+.input-field:hover:not(:disabled) {
+  border-color: #007c8c;
+}
+
+.input-field:disabled {
+  background-color: #f0f0f0;
+  border-color: #ddd;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: var(--font-size-medium);
+}
+
+/* البطاقات */
+.card {
+  width: 18.75rem;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 12.5rem;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+
+/* الروابط */
+.link {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-gray-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: color 0.3s ease;
+}
+
+.link .arrow {
+  margin-left: 8px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.link:hover {
+  color: #d1d1d1;
+}
+
+.link:hover .arrow {
+  transform: translateX(5px);
+}
+@media (min-width: 768px) {
+    p {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 21.94px;
+    }
+   
+     .text{
+    width: 502px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.38px;
+  
+     }
+     h1,span{
+      width: 414px;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43.88px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+     }
+     .btn-primary{
+        width: 175px;
+        height: 64px;
+     }
+.injaction-img{
+    width: 622px;
+    height: 617px;
+padding-left: 100px;}
+.vial{
+    width: 532.13px;
+    height: 571px;
+    
+    
+}
+.small-img{
+    width: 100px;
+    height: 100px;
+    top: 236px;
+    left: 575px;
+    
+    
+  }.small-img2{
+    width: 100px;
+    height: 100px;
+    right: 570px;
+    top: 236px;
+  }
+  .doctor{
+    width: 374px;
+height: 100px;
+
+
+  }
+  .img-d1{
+    width: 60px;
+    height: 60px;
+
+  }
+  .img-d2{width: 60px;
+    height: 60px;
+    left: 70px;
+    z-index: 1;
+    }
+    .img-d3{
+        width: 60px;
+    height: 60px;
+    left: 120px;
+    }
+    .h1,.span1{
+
+        width: 134px;
+        height: 29px;
+     
+                font-size: 24px;
+font-weight: 700;
+line-height: 29.26px;
+left: 207px;
+
+
+    }
+}
