@@ -52,14 +52,16 @@ span {
   flex-direction: column;      /* ترتيب العناصر عموديًا */
   justify-content: flex-start; /* المحاذاة للجزء العلوي من الصفحة */
          /* محاذاة العناصر أفقيًا في المنتصف */
-  min-height: 100vh; }
+  min-height: 100vh;
+  padding-left: 2rem;
+}
 .logo{
 
   width: 100%;
 height: 39px;
 
-padding-left: 0px;
-margin-left: 0px;
+position: absolute;
+left: 0px;
 
   background: rgba(255, 255, 255, 0.915);
 
