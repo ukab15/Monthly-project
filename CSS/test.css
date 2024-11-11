@@ -21,7 +21,8 @@
 body {
   background-image: url(/imags/back/unsplash_SfDofjXtxHE\ \(2\).svg);
   font-family: "Montserrat", sans-serif;
-margin-left: 2rem;}
+margin-left: 2rem;
+}
 
 /* النصوص */
 h1,
@@ -71,9 +72,7 @@ left: 0px;
   color: rgba(255, 255, 255,0.9);
 padding-left: 12px;
 padding-top: 2px;}
-.bage1{
-  /* padding-left: 2rem; */
-}
+
 span {
   font-size: var(--font-size-large);
   font-weight: 800;
@@ -470,17 +469,14 @@ span.new-line {
 @media (min-width: 768px) {
    .logo{
     height: 60px;
+    width: 100%;
    }
   p {
       font-size: 18px;
       font-weight: 700;
       line-height: 21.94px;
     }
-   .logo{
-height: 80px;
 
-padding-right: 0px;
-   }
    .logo-com{
 font-size: 200px;
 padding-left: 12px;
@@ -573,7 +569,7 @@ height: 324px;
 
     }
     .item2{
-      width: 88%;
+      width: 880px;
       height: 231px;
      position: relative;
      
@@ -622,7 +618,7 @@ height: 50px;
       width: 253px;
 height: 64px;
 position: absolute;
-right: 25px;
+right: 155px;
     }
   } 
 
