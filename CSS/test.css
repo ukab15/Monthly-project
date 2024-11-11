@@ -70,6 +70,8 @@ span {
   font-size: var(--font-size-medium);
 }
 
+
+
 .line-header,
 .line-foter {
   background-color: var(--secondary-color);
@@ -200,6 +202,7 @@ li:hover {
 }
 
 .icon-f {
+         
   width: 1.75rem;
   height: 1.4375rem;
   color: rgb(12, 12, 12);
@@ -232,6 +235,15 @@ li:hover {
   box-shadow: var(--box-shadow);
   margin-top: 3.5rem;
   margin-right: 0.625rem;
+}
+.btn-secondary{
+  width: 150px;
+height: 50px;
+margin: 20px;
+border-radius: 10px ;
+
+background-color: var(--secondary-color);
+
 }
 
 .btn-tertiary {
@@ -363,6 +375,65 @@ li:hover {
 .link:hover .arrow {
   transform: translateX(5px);
 }
+
+/* ========================= */
+.info {
+  width: 306px;
+  height: 292px;
+
+}
+.icon-f1 {
+  margin-top: 10px;
+  width: 29.98px;
+  height: 30px;
+}
+
+
+.p-info {
+padding:0px;
+
+  font-size: 14px;
+font-weight: 700;
+line-height: 17.07px;
+margin-left: 10px;
+margin-bottom: 5px;
+
+
+  color: #ffffff80;
+}
+.item {
+  display: flex;
+  padding-left: 10px;
+ 
+}
+.item2 {
+  background: #c4c4c41a;
+  width: 305px;
+  height: 231px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+.ico{ 
+  /* position: relative; */
+  width: 203;
+  height: 131px;
+    padding-bottom: 20px;
+
+}
+span.new-line {
+  color: white;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  padding: 0px;
+}
+
+.time{
+  display: flex;
+  padding-bottom: 10px;
+}
 @media (min-width: 768px) {
     p {
       font-size: 18px;
@@ -447,4 +518,63 @@ left: 207px;
 
 
     }
-}
+    .info{
+      margin-top: 39px;
+      width: 670.46px;
+height: 324px;
+
+
+    }
+    .item2{
+      width: 668px;
+      height: 231px;
+     position: relative;
+     
+    }
+    .ico{
+      display: grid;
+      grid-template-rows: repeat(2, 1fr); 
+      grid-template-columns: repeat(2, 1fr); 
+    }
+    .p-info  {
+    
+font-size: 20px;
+font-weight: 700;
+line-height: 24.38px;
+padding-left: 20px;
+padding-top: 37px;
+margin: 0px;
+width: 279.76px;
+height: 54px;
+
+
+    }
+    .new-line{
+      font-size: 20px;
+font-weight: 700;
+line-height: 24.38px;
+
+    }
+    .icon-f1{
+      padding-top: 30px;
+      width: 49.96px;
+height: 50px;
+
+
+    }
+    .time{
+      position: relative;
+    }
+  .time span {
+      position: absolute;
+      top: 40px;
+      left: 69px;
+
+    }
+    .btn-secondary{
+      width: 253px;
+height: 64px;
+position: absolute;
+right: 25px;
+    }
+  }

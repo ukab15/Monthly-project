@@ -41,12 +41,14 @@
             </clipPath>
         </defs>
     </symbol>
+    
     <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="send">
         <path d="M36.6666 3.3335L18.3333 21.6668" stroke="white" stroke-width="3" stroke-linecap="round"
             stroke-linejoin="round"></path>
         <path d="M36.6666 3.33301L25 36.6663L18.3333 21.6663L3.33331 14.9997L36.6666 3.33301Z" stroke="white"
             stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
     </symbol>
+    
     <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 50" id="shield">
         <rect x="0.424622" width="49.9615" height="50" rx="10" fill="#C4C4C4" fill-opacity="0.1"></rect>
         <path
@@ -58,6 +60,18 @@
             d="M29.2973 30.642V7.70061C29.2973 6.34972 28.7607 5.05415 27.8054 4.09892C26.8502 3.1437 25.5546 2.60706 24.2037 2.60706C22.8528 2.60706 21.5573 3.1437 20.6021 4.09892C19.6468 5.05415 19.1102 6.34972 19.1102 7.70061V30.642C17.4747 31.7347 16.234 33.3245 15.5713 35.1765C14.9087 37.0284 14.8591 39.0444 15.4301 40.9267C16.0011 42.8089 17.1622 44.4577 18.7421 45.6294C20.322 46.8011 22.2368 47.4337 24.2037 47.4337C26.1707 47.4337 28.0855 46.8011 29.6654 45.6294C31.2453 44.4577 32.4064 42.8089 32.9774 40.9267C33.5483 39.0444 33.4988 37.0284 32.8362 35.1765C32.1735 33.3245 30.9328 31.7347 29.2973 30.642Z"
             stroke="white" stroke-width="2.99376" stroke-linecap="round" stroke-linejoin="round"></path>
     </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" id="Group 5">
+    <rect width="29.9769" height="30" rx="10" fill="#C4C4C4" fill-opacity="0.1"></rect>
+    <g clip-path="url(#clip0_34_575)">
+      <path d="M14.9844 23.3333C19.5832 23.3333 23.3113 19.6024 23.3113 15C23.3113 10.3976 19.5832 6.66666 14.9844 6.66666C10.3856 6.66666 6.65747 10.3976 6.65747 15C6.65747 19.6024 10.3856 23.3333 14.9844 23.3333Z" stroke="#17C2EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M14.9844 10V15L18.3151 16.6667" stroke="#17C2EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_34_575">
+        <rect width="19.9846" height="20" fill="white" transform="translate(4.99219 5)"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
     <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 50" id="calendar">
         <rect x="0.68692" width="49.9615" height="50" rx="10" fill="#C4C4C4" fill-opacity="0.1"></rect>
         <path
