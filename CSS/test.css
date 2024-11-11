@@ -21,8 +21,7 @@
 body {
   background-image: url(/imags/back/unsplash_SfDofjXtxHE\ \(2\).svg);
   font-family: "Montserrat", sans-serif;
-  /* padding-left: 2rem; */
-}
+margin-left: 2rem;}
 
 /* النصوص */
 h1,
@@ -48,25 +47,29 @@ span {
   line-height: 1.22rem;
   padding: 2rem 4rem 1.25rem 0;
 }
+.bage{
+  display: flex;               /* استخدام Flexbox */
+  flex-direction: column;      /* ترتيب العناصر عموديًا */
+  justify-content: flex-start; /* المحاذاة للجزء العلوي من الصفحة */
+         /* محاذاة العناصر أفقيًا في المنتصف */
+  min-height: 100vh; }
 .logo{
 
   width: 100%;
 height: 39px;
-top: 1140px;
+
 padding-left: 0px;
 margin-left: 0px;
 
   background: rgba(255, 255, 255, 0.915);
 
-  position: absolute;
+  
 }
 .logo-com{
   color: rgba(255, 255, 255,0.9);
 padding-left: 12px;
 padding-top: 2px;}
-.bage1{
-  padding-left: 2rem;
-}
+
 span {
   font-size: var(--font-size-large);
   font-weight: 800;
@@ -461,15 +464,17 @@ span.new-line {
   display: none;
 }
 @media (min-width: 768px) {
-    p {
+   .logo{
+    height: 60px;
+   }
+  p {
       font-size: 18px;
       font-weight: 700;
       line-height: 21.94px;
     }
    .logo{
 height: 80px;
-top: 1600px;
-height: 80px;
+
 padding-right: 0px;
    }
    .logo-com{
@@ -619,7 +624,10 @@ right: 25px;
 
 
   @media (min-width: 1024px){
-    p {
+   
+   .logo{
+    height: 150px;
+   } p {
       font-size: 24px;
       font-weight: 700;
       line-height: 29.26px;
