@@ -22,6 +22,7 @@ body {
   background-image: url(/imags/back/unsplash_SfDofjXtxHE\ \(2\).svg);
   font-family: "Montserrat", sans-serif;
 margin-left: 2rem;
+
 }
 
 /* النصوص */
@@ -49,12 +50,12 @@ span {
   padding: 2rem 4rem 1.25rem 0;
 }
 .bage{
-  display: flex;               /* استخدام Flexbox */
-  flex-direction: column;      /* ترتيب العناصر عموديًا */
-  justify-content: flex-start; /* المحاذاة للجزء العلوي من الصفحة */
-         /* محاذاة العناصر أفقيًا في المنتصف */
-  min-height: 100vh;
-  padding-left: 2rem;
+    display: flex;               
+  flex-direction: column;      
+  min-height: 100vb;
+} 
+.bage1{
+  /* width: 300rem; */
 }
 .logo{
 
@@ -130,6 +131,7 @@ span {
 
 .section1 {
   padding-right: 2.75rem;
+  height: auto;
 }
 
 .injaction-img {
@@ -721,9 +723,6 @@ line-height: 29.26px;
   }
 .icone-header{
   display: none;
-}
-.header,.section1{
-  padding-left: 2%;
 }
 
 .btn-tertiary1{
