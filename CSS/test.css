@@ -21,8 +21,7 @@
 
 body { 
   padding: 0px;
-  width: auto;
-  height: auto;
+
   background-image: url(/imags/back/unsplash_SfDofjXtxHE\ \(2\).svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -506,7 +505,7 @@ height: 50px;
     display: flex;
     gap: 90px;
     height: 60px;
-    width: 99%px;
+    width: 100%px;
    }
   p {
       font-size: 18px;
@@ -675,7 +674,7 @@ right: 30px;
     
    gap: 139px;
     height: 150px;
-    width: 1440px;
+    width:100%;
 
    }
    
