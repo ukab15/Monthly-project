@@ -18,8 +18,11 @@
   --font-size-large: 1.5rem;
 }
 
-body { width: 100%;
-  height: 100%;
+
+body { 
+  padding: 0px;
+  width: auto;
+  height: auto;
   background-image: url(/imags/back/unsplash_SfDofjXtxHE\ \(2\).svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,6 +37,7 @@ h1,
   color: var(--primary-color);
   font-size: var(--font-size-large);
   font-weight: 800;
+
 }
 
 p,
@@ -52,15 +56,20 @@ span {
   line-height: 1.22rem;
   padding: 2rem 4rem 1.25rem 0;
 }
-.bage{
-    display: flex;               
-  flex-direction: column;      
-  min-height: 100vb;
-  margin-left: 2rem;
-} 
+.bage1{
+ 
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-left: 2rem; 
+
+
+
+
+}
+
 
 .logo
-{      display: block; /* اجعل العنصر يظهر ككتلة */
+{      
 
   clear: both;
 
@@ -108,6 +117,7 @@ span {
   border-radius: 8px;
 }
 
+
 .line-header {
   width: 5rem;
   height: 3px;
@@ -127,14 +137,15 @@ span {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 3.125rem;
-  padding-right: 2.1875rem;
+padding-left: 15px;
+padding-top: 20px;
+padding-right: 25px;
 }
-
+/* 
 .section1 {
   padding-right: 2.75rem;
   height: auto;
-}
+} */
 
 .injaction-img {
   position: relative;
@@ -292,6 +303,20 @@ background-color: var(--secondary-color);
   transform: scale(0.9);
 }
 
+
+/* ===========ز===================================== */
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 305px;
+  height: 381px;
+  border-radius: 20px;
+  background: rgba(196, 196, 196, 0.1);
+
+}
+
+/* =============================================================== */
 /* الحقول */
 .input-field {
   width: 100%;
@@ -481,7 +506,7 @@ height: 50px;
     display: flex;
     gap: 90px;
     height: 60px;
-    width: 100%;
+    width: 99%px;
    }
   p {
       font-size: 18px;
@@ -631,27 +656,29 @@ line-height: 24.38px;
     .btn-secondary{
       width: 253px;
 height: 64px;
-position: absolute;
 right: 30px;
     }
   } 
 
 
   @media (min-width: 1024px){
-   
- 
+   .bage1{
+    height: 960px;
+   }
+  
     .item0{
       position: relative;
       right: 100px;
       margin-bottom: 5;
     }
    .logo{
-   gap: 140px;
+    
+   gap: 139px;
     height: 150px;
-    position: relative;
-    top: 500px;
+    width: 1440px;
+
+   }
    
-   } 
    .logo-com{width: 200px;
 
    }
@@ -666,70 +693,62 @@ right: 30px;
     line-height: 29.26px;
 
     
-}
-.p-info{
+ }
+ .p-info{
 
   font-size: 16px;
   font-weight: 700;
   line-height: 29.26px;
   margin-left: 5px;
-}
+ }
  
 
-.title{
-position: absolute;
-top: 1%;
-  font-size: 32px;
+ .title{
+margin-bottom: 70x;
+    font-size: 32px;
   font-weight: 700;
   line-height: 39.01px;
  
 
-}
-.btn-primary{
+ }
+ .btn-primary{
   width: 200px;
   height: 69px;
-}
-.small-img2{
+  }
+ .small-img2{
   left: 50px;
-}
-.injaction-img{
-width: 500px;
-height: 500px;
-  margin-right: 700px;
-
-position: absolute;
-top: 160px;
-
-left: 550px;
-
-}
-.info{
-  width: 1299px;
-  position: absolute;
-   bottom: 2px;
-   left: 70px;
-   top:804px;
-} 
+ }
+ .small-img{
+  right: 0px;
+ }
+ .injaction-img{
+ width: 500px;
+ height: 500px;
+   margin-right: 700px;
+   bottom: 500px;
+ left: 520px;
+ }
+ .info{
+    width:1360px;
+    bottom: 400px; 
+ } 
 .item2{
 width: 90%;  
 height: 60%;
-padding-left: 0.5%;
-position: relative;
 left:0px;
-right: 3%;
+
 }
 .ico{
   
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  
 }
 .btn-secondary{
-  position: absolute;
-  right: 50px;
+  right: 104px;
   top: 10px;
   width: 142px;
   height: 69px;
-  font-family: Montserrat;
 font-size: 24px;
 font-weight: 700;
 line-height: 29.26px;
@@ -745,6 +764,16 @@ font-weight: 700;
 line-height: 29.26px;
 
 }
+.bage2{
+  margin-left: 30px;
+}
+.header{
+  margin-left: 15px;
+  padding-top: 15px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
   .list {
     display: flex; 
     display: inline-block;
@@ -753,7 +782,6 @@ line-height: 29.26px;
     list-style-type: none; 
     padding: 0;
     margin: 0; 
-    position: absolute;
    left: 40%;
 font-size: 24px;
 font-weight: 500;
@@ -789,7 +817,6 @@ line-height: 29.26px;
 }
 
 .btn-tertiary1{
-  position: absolute;
   right: 1%;
   display: unset;
   width: 219px;
