@@ -70,11 +70,9 @@ span {
 .logo
 {      
   display: flex;
-justify-content: space-between;
   clear: both;
-
-height: 39px;
-
+gap: 10px;
+width: 100%;
 
   background: rgba(255, 255, 255, 0.915);
 
@@ -503,8 +501,7 @@ height: 50px;
   }
    .logo{ 
    height: 60px;
-    width: 768px;
-    
+    gap: 70px;
   }
   p {
       font-size: 18px;
@@ -601,6 +598,7 @@ left: 207px;
       margin-top: 39px;
       width: 88;
 height: 324px;
+right:3%;
 
 
     }
@@ -673,7 +671,7 @@ right: 30px;
     
    gap: 139px;
     height: 150px;
-width:1443px ;
+
    }
    
    .logo-com{width: 200px;
@@ -721,13 +719,14 @@ margin-bottom: 70x;
  .injaction-img{
  width: 500px;
  height: 500px;
-   margin-right: 700px;
+   margin-right: 650px;
    bottom: 500px;
- left: 520px;
+ left: 480px;
  }
  .info{
     width:1360px;
     bottom: 400px; 
+    left: 1%;
  } 
 .item2{
 width: 90%;  
