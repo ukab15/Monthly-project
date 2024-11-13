@@ -69,10 +69,10 @@ span {
 
 .logo
 {      
-
+  display: flex;
+justify-content: space-between;
   clear: both;
 
-  width: 100%;
 height: 39px;
 
 
@@ -502,11 +502,10 @@ span.new-line {
 height: 50px;
   }
    .logo{ 
-    display: flex;
-    gap: 90px;
-    height: 60px;
-    width: 100%px;
-   }
+   height: 60px;
+    width: 768px;
+    
+  }
   p {
       font-size: 18px;
       font-weight: 700;
@@ -674,8 +673,7 @@ right: 30px;
     
    gap: 139px;
     height: 150px;
-    width:100%;
-
+width:1443px ;
    }
    
    .logo-com{width: 200px;
