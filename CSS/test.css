@@ -73,7 +73,6 @@ height: 39px;
   
 }
 .logo-com{
-  color: rgba(255, 255, 255,0.9);
 padding-left: 12px;
 padding-top: 2px;}
 
@@ -479,6 +478,8 @@ span.new-line {
 height: 50px;
   }
    .logo{ 
+    display: flex;
+    gap: 90px;
     height: 60px;
     width: 100%;
    }
@@ -489,10 +490,11 @@ height: 50px;
     }
 
    .logo-com{
+    width: 130px;
 font-size: 200px;
 padding-left: 12px;
-padding-top: 30px;
-
+padding-top: 8px;
+margin-bottom:2px ;
 
    }
      .text{
@@ -579,6 +581,8 @@ height: 324px;
 
 
     }
+    
+          
     .item2{
       width: 668px;
       height: 231px;
@@ -628,7 +632,7 @@ line-height: 24.38px;
       width: 253px;
 height: 64px;
 position: absolute;
-right: 155px;
+right: 30px;
     }
   } 
 
@@ -642,12 +646,15 @@ right: 155px;
       margin-bottom: 5;
     }
    .logo{
-    
+   gap: 140px;
     height: 150px;
     position: relative;
     top: 500px;
    
    } 
+   .logo-com{width: 200px;
+
+   }
    p {
       font-size: 24px;
       font-weight: 700;
