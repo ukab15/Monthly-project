@@ -1091,9 +1091,16 @@ height: 99.79px;
   } 
 
 
-  @media (min-width: 1024px)
+  @media (min-width: 1024px){
   
-  {
+  .p-form{
+    position: relative;
+    left: 20px;
+    width: 1209px;
+ padding-left: 20px;
+text-align: center;
+  }
+  
     .bage5{
       margin-top: 0px;
       gap: 4px;
@@ -1333,13 +1340,7 @@ margin-top: 62px;
 margin-left: 0px;
 
 }
-.p-form{
-  width: 1348px;
-  margin-left: 0px;
-  padding-left: 0px;
-  font-family: Montserrat;
-text-align: center;
-}
+
 .input{
   width: 1199px;
   flex-direction: row;
