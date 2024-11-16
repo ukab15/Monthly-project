@@ -21,7 +21,6 @@
 
 body { 
   padding: 0px;
-
   background-image: url(/imags/back/unsplash_SfDofjXtxHE\ \(2\).svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,19 +84,23 @@ margin-top: 17px;
 }
 .bage4{
   background-image: url(/imags/back/back4.jpg);
-margin: 0px;
-padding: 0px;
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
+margin-top: 35px;
+padding-left: 50px;
+
+  display: flex;
+  flex-direction: column;
+
   gap: 20px;
 
 }
+.title-bage4{text-align: center;
+margin-right: 60px;}
 .footer-bage4{
   display: flex;
-  margin-left: 40px;
-  gap: 40px;
+  margin: 0px;
+  padding: 0px;
   width: 550px;
+
 }
 
 .backg-img{
@@ -139,6 +142,7 @@ right: 40%;
   display: flex ;
   flex-wrap: wrap;
 gap: 20px;
+padding-right: 39px;
 }
 .info-phone p{
 font-size: 14px;
@@ -151,7 +155,7 @@ margin: 0px;
 
 .info-phone h4{
   margin: 0px;
-  margin-right: 300 px;
+  /* margin-right: 300 px; */
 }
 .logo
 {      
@@ -642,7 +646,9 @@ color:var(--primary-color);
   
   color: var(--secondary-color);
   position: relative;
-  bottom: 8px;
+  bottom: 0px;
+  margin: 0px;
+  padding: 0px;
   
   }
   .link4:hover {
@@ -736,6 +742,10 @@ span.new-line {
 
 
 @media (min-width: 768px) {
+  .footer-bage4{
+    gap: 150px;
+
+  }
   .btn-secondary2,.btn-secondary3{
 font-size: 20px;
 line-height: 24.38px;
@@ -750,7 +760,6 @@ line-height: 24.38px;
   }
   .bage4{
     padding: 100px;
-    margin-top: 30px;
   }
   .img-bage4{
     width: 400px;
@@ -1020,7 +1029,9 @@ height: 99.79px;
 
 
   @media (min-width: 1024px){
-  
+ .bage4{ display: grid;
+  grid-template-columns: auto;
+  justify-content: center;}
     .info-phone{
            position: relative;
 top: -350px;
