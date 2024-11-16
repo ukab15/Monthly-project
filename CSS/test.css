@@ -1125,14 +1125,14 @@ height: 530.71px;
 top:40px;
   }
   .icon-bage5{
-    top:4100px;
+    top:4000px;
     width: 1267px;
     height: 464px;
   
     
   }
   
- .bage4{height: 1100px;
+ .bage4{
    display: grid;
   grid-template-columns: auto;
   justify-content: center;
