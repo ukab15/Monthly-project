@@ -93,6 +93,7 @@ padding-left: 50px;
   gap: 20px;
 
 }
+
 .title-bage4{text-align: center;
 margin-right: 60px;}
 .footer-bage4{
@@ -174,7 +175,43 @@ padding-right: 0px;
   position:absolute;
   right: 5px;
 }
+.bage6{
+  background-color: #f0f0f0;
+  background-image: url(/imags/Group\ 74.svg);
+  background-repeat: no-repeat; 
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.bage6 h5{
+font-size: 14px;
+line-height: 17.38px;
+color: var(--secondary-color);
 
+}
+
+.bage6 h1{
+font-size: 24px;
+font-weight: 800;
+line-height: 29.88px;
+color: var(--tertiary-color);
+}
+.text-bage6{
+  color: var(--text-gray-color);
+padding: 0px;
+margin: 0px;
+margin-left: 40px;}
+
+.chang-paragraf{
+  color: var(--secondary-color);
+  padding: 0px;
+  margin: 0px;
+  font-size: 12.2px;
+  font-weight: 500;
+  line-height: 14.87px;
+}
 .info-phone{
   display: flex ;
   flex-wrap: wrap;
@@ -642,6 +679,62 @@ line-height: 17.07px;}
 .text-card span{
   color:var(--primary-color);
 }
+.card2{
+  width: 285.92px;
+height: 191.38px;
+border-radius: 13.55px ;
+background: rgba(196, 196, 196, 0.5);
+padding: 13px;
+
+
+}
+.card3{
+  background-color: var(--secondary-color);
+  width: 285.92px;
+  height: 191.38px;
+  border-radius: 13.55px ;
+  background: var(--secondary-color);
+  padding: 13px;
+}
+.card3 h6{
+  color: var(--primary-color);
+}
+
+.informatin h6{
+font-size: 13.55px;
+line-height: 16.52px;
+margin: 5px;
+
+}
+.informatin span{
+font-size: 9.49px;
+line-height: 11.56px;
+color: rgba(0, 0, 0, 0.5);
+padding: 0px;
+
+
+}
+.paragrf1{
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-size: 12.2px;
+  font-weight: 500;
+  line-height: 14.87px;
+  text-align: center;
+margin: 0px;
+padding: 10px;
+margin-top: 20px;
+  
+}
+.paragrf2{
+color: var(--text-light-gray-color);
+}
+.up{
+  display: flex;
+  gap: 13px;
+  
+}
+
 /* =====================================انتهاء تنسيق البطاقات */
 /* ====================================================الروابط */
 .link {
