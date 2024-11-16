@@ -138,41 +138,42 @@ right: 40%;
   top: -6%;
 }
 .bage5{
-  padding-left: 18%;
- 
-height: auto;
-display: flex;
-justify-content: center;
-flex-direction: column;
-padding-right: 0px;
-margin-right: 0px;
+  display: grid; /* تفعيل CSS Grid */
+  grid-template-columns: auto; /* عمود واحد */
+  justify-items: center; /* توسيط العناصر أفقياً */
+  align-items: center; /* توسيط العناصر عمودياً */
+  height: 100%; 
+  width: 100%;
+  gap: 20px;
+
 }
 .bage5 h6,span{
   color: var(--primary-color);
 font-size: 12px;
 line-height: 14.63px;
+padding-right: 0px;
 }
-.bage5 h6{
-  padding-left: 20%;
-}
+
 .bage5 p{
- 
+ padding-right: 0px;
   color: var(--text-gray-color);
+  text-align: center;
 }
 .img-bage5{
   position: relative;
-  left: 19px;
+  z-index: -1;
 }
 .bage5 h1{
   color: var(--secondary-color);
   margin: 0px;
- 
   
 }
 .icon-bage5{
+  margin: 0px;
+  padding: 0px;
   position:absolute;
- top: 10px;
-right: 70px;}
+  right: 5px;
+}
 
 .info-phone{
   display: flex ;
