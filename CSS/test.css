@@ -215,7 +215,8 @@ margin-left: 40px;}
 .send{
    position: absolute;
   top: 15px;
-left: 15px;
+  left: 13px;
+
   background-color:var(--secondary-color);
   width: 280px;
 height: 174px;
@@ -224,9 +225,6 @@ text-align: center;
 display: flex;
 flex-direction: column;
 gap: 12px;
-}
-.send h1{
-  color: var(--primary-color);
 }
 .send p{
   color: var(--primary-color);
@@ -246,7 +244,7 @@ border-radius: 20px ;
 background: rgba(196, 196, 196, 0.15);
 z-index: 1;
  position: relative;
-top: 90px;
+top: 100px;
 
 
 }
@@ -299,7 +297,8 @@ height:30px ;
   background-color: #12123a; 
 }
 .send h1{
-  font-size: 18px;
+  color: var(--primary-color);
+  font-size: 12px;
 }
 .chang-paragraf{
   color: var(--secondary-color);
@@ -525,8 +524,13 @@ padding-right: 25px;
 /* الفوتر */
 .footer {
   height: 11.6875rem;
-  margin: 1.875rem 8.3125rem 2.9rem 2.1875rem;
-  padding-top: 50px;
+  margin: 1.875rem 8.3125rem 5.375rem 2.1875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+padding: 10px;
+padding-top: 80px;
+
 }
 
 ul {
@@ -544,7 +548,7 @@ li:hover {
   color: var(--primary-color);
 }
 
-.icon-f {
+.icon-f3 {
          
   width: 1.75rem;
   height: 1.4375rem;
@@ -552,13 +556,14 @@ li:hover {
   transition: transform 0.3s ease;
 }
 
-.icon-f:hover {
+.icon-f3:hover {
   transform: scale(1.1);
 }
 
 .icone-foter {
-  position: absolute;
-  left: 1.875rem;
+  position: relative;
+
+  
 }
 
 /* الأزرار */
@@ -970,6 +975,34 @@ span.new-line {
 
 
 @media (min-width: 768px) {
+  .footer{
+    padding-top: 150px;
+  }
+  .shadwo{
+    width: 709px;
+height: 320px;
+top:170px;
+  }
+  .send{
+    width: 659px;
+    height: 263px;
+    left: 10px;
+  }
+  .send p{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .email-container{
+    width: 550px;
+    height: 55px;
+    margin-left: 60px;
+  }
+  .send-button{
+    padding: 40px;
+  }
+  .send-button svg {width: 40px;
+    height: 40px;}
+
   .bage6 h5{
     font-size: 20px;
     line-height: 24px;
@@ -1314,6 +1347,59 @@ height: 99.79px;
 
 
   @media (min-width: 1024px){
+    .shadwo{
+      width: 1076px;
+      height: 435px;}
+    .send{
+      width: 1031px;
+      height: 400px;
+    
+      text-align: center;
+    }
+
+     .email-container{
+    height: 75px;
+    margin-left: 60px;
+  margin-left: 230px;
+  margin-top: 40px;
+     }
+     .send h1{
+      margin-left: 230px;
+     }
+  
+    .footer{
+      flex-direction: row;
+      justify-content: space-between;
+      padding-top: 260px;
+      margin-bottom: 0px ;
+    }
+    .ul li {
+      display: inline;
+      margin: 6px;
+      font-size: 18px;
+      
+    }
+    .ul{
+      padding-right: 60px;
+    }
+    .icone-foter{
+      top: 15px;
+    }
+    .h1-f{
+font-size: 32px;
+font-weight: 700;
+line-height: 39.01px;
+position: relative;
+bottom: 20px;
+    }
+    .icon-f3{
+      width: 45px;
+      height: 40px;
+    }
+    .cards{
+      display: flex;
+      flex-direction: row; 
+    }
 
   .bage6{
 background-image: url(/imags/Group\ 74\ \(1\).svg);
@@ -1357,7 +1443,7 @@ height: 530.71px;
 top:40px;
   }
   .icon-bage5{
-    top:4000px;
+    top:4100px;
     width: 1267px;
     height: 464px;
   
