@@ -98,8 +98,11 @@ padding-left: 50px;
 margin-right: 60px;}
 .footer-bage4{
   display: flex;
-  margin: 0px;
-  padding: 0px;
+  gap: 15px;
+  font-size: 12px;
+    margin: 0px;
+  padding: 0;
+  padding-bottom: 10px;
   width: 550px;
 
 }
@@ -177,7 +180,7 @@ padding-right: 0px;
 }
 .bage6{
   background-color: #f0f0f0;
-  background-image: url(/imags/Group\ 74.svg);
+  background-image:   url(/imags/Group\ 74.svg);
   background-repeat: no-repeat; 
   background-position: center;
   display: flex;
@@ -203,7 +206,101 @@ color: var(--tertiary-color);
 padding: 0px;
 margin: 0px;
 margin-left: 40px;}
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 100px;
+}
+.send{
+   position: absolute;
+  top: 15px;
+left: 15px;
+  background-color:var(--secondary-color);
+  width: 280px;
+height: 174px;
+border-radius: 50px ;
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+.send h1{
+  color: var(--primary-color);
+}
+.send p{
+  color: var(--primary-color);
+font-size: 10px;
+font-weight: 500;
+line-height: 12.19px;
 
+
+  margin: 0px;
+  padding: 0px;
+}
+.shadwo{
+  width: 305px;
+height: 206px;
+
+border-radius: 20px ;
+background: rgba(196, 196, 196, 0.15);
+z-index: 1;
+ position: relative;
+top: 90px;
+
+
+}
+.email-container {
+  display: flex;
+  align-items: center;
+  width: 233px;
+height:30px ;
+  border: 1px solid #ccc; 
+  border-radius: 25px; 
+  overflow: hidden; 
+  background-color: #fff; 
+  margin-left: 15px;
+
+}
+
+.email-input {
+  flex: 1;
+  width: 150px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #333;
+  outline: none; 
+}
+
+.email-input::placeholder {
+  color: #aaa; 
+}
+
+.send-button {
+  background-color: #1b1b46; 
+  width: 130px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.send-button svg {
+  fill: #fff; 
+  width: 20px;
+  height: 20px;
+}
+
+.send-button:hover {
+  background-color: #12123a; 
+}
+.send h1{
+  font-size: 18px;
+}
 .chang-paragraf{
   color: var(--secondary-color);
   padding: 0px;
@@ -428,7 +525,8 @@ padding-right: 25px;
 /* الفوتر */
 .footer {
   height: 11.6875rem;
-  margin: 1.875rem 8.3125rem 12.375rem 2.1875rem;
+  margin: 1.875rem 8.3125rem 2.9rem 2.1875rem;
+  padding-top: 50px;
 }
 
 ul {
@@ -872,13 +970,42 @@ span.new-line {
 
 
 @media (min-width: 768px) {
- 
+  .bage6 h5{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .bage6 h1{
+    font-size: 36px;
+    line-height: 44px;
+    width: 600px;
+    text-align: center;
+  }
+  .card2,.card3{
+    margin-top: 50px;
+    width: 320px;
+    height: 250px;
+
+
+  }
+ .bage6 h6{
+  font-size: 20px;
+  line-height: 24px;
+ }
+ .bage6 span{
+  font-size: 14px;
+  line-height: 17px;
+ }
+ .paragrf1{
+  font-size: 18px;
+  line-height: 21px;
+ }
+
   .bage5 h1.span{
     width: 500px;
   }
   .bage5 p{
-    width: 553px;
-height: 88px;
+    /* width: 553px;
+height: 88px; */
 
 
   }
@@ -886,6 +1013,7 @@ height: 88px;
     font-size: 20px;
     line-height: 24.38px;
     
+
 
   }
   .icon-bage5{
@@ -899,6 +1027,7 @@ height: 343.42px;
   }
   .footer-bage4{
     gap: 150px;
+    font-size: 16px;
 
   }
   .btn-secondary2,.btn-secondary3{
@@ -1185,7 +1314,10 @@ height: 99.79px;
 
 
   @media (min-width: 1024px){
-  
+
+  .bage6{
+background-image: url(/imags/Group\ 74\ \(1\).svg);
+  }
   .p-form{
     position: relative;
     left: 20px;
